@@ -18,8 +18,8 @@ Perform following activities -
 2.  Create an interface that define the characteristic properties of a car -
   - model
   - color
-  - year of manufacture,
-   Create a function that takes this value as its parameter and simply print the properties.
+  - year of manufacture
+    - Create a function that takes this value as its parameter and simply print the properties.
 
 3.  Create a class 'Vehicle' with
   - Class properties 'model', 'color', 'year of manufacture'.
