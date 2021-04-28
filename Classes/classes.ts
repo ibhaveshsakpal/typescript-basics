@@ -13,9 +13,9 @@
 class Vehicle {
 
     // Initilised variables
-    model: string;
-    color: string;
-    yearofManufacture: string;
+    protected model: string;
+    protected color: string;
+    protected yearofManufacture: string;
 
 
     constructor(carModel: string, carColor: string, carYearofManufacture: string ) {
@@ -25,7 +25,7 @@ class Vehicle {
     }
 
     carProperties(){
-        console.log(`1st Call:   Car Model: ${this.model}, Car color: ${this.color}, Car Year of Manufacture: ${this.yearofManufacture}`);
+        console.log(`Car Model: ${this.model}, Car color: ${this.color}, Car Year of Manufacture: ${this.yearofManufacture}`);
     }
 }
 
@@ -51,4 +51,3 @@ class Car extends Vehicle {
 
 let carObj2 = new Car("Lamborghini Aventador","Black","2011-2017",2);
 carObj2.displayCarDetails();
-carObj2.carProperties();

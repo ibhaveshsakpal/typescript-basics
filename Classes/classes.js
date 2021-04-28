@@ -29,7 +29,7 @@ var Vehicle = /** @class */ (function () {
         this.yearofManufacture = carYearofManufacture;
     }
     Vehicle.prototype.carProperties = function () {
-        console.log("1st Call:   Car Model: " + this.model + ", Car color: " + this.color + ", Car Year of Manufacture: " + this.yearofManufacture);
+        console.log("Car Model: " + this.model + ", Car color: " + this.color + ", Car Year of Manufacture: " + this.yearofManufacture);
     };
     return Vehicle;
 }());
@@ -49,4 +49,3 @@ var Car = /** @class */ (function (_super) {
 }(Vehicle));
 var carObj2 = new Car("Lamborghini Aventador", "Black", "2011-2017", 2);
 carObj2.displayCarDetails();
-carObj2.carProperties();
