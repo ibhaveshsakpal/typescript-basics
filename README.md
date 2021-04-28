@@ -19,11 +19,13 @@ Perform following activities -
   - model
   - color
   - year of manufacture
-   Create a function that takes this value as its parameter and simply print the properties.
+  - Create a function that takes this value as its parameter and simply print the properties.
+
 3.  Create a class 'Vehicle' with
-- Class properties 'model', 'color', 'year of manufacture'.
-- Class constructor to manage these properties
-- Simple method to print these properties
+  - Class properties 'model', 'color', 'year of manufacture'.
+  - Class constructor to manage these properties
+  - Simple method to print these properties
+
 4. Also, create a child class 'Car' of above 'Vehicle' class with
 - Class properties 'seating capacity(number of persons that sit)'
 - Class constructor to manage these properties
